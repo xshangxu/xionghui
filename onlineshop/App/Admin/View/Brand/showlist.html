@@ -1,0 +1,53 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <style type="text/css">
+        .search{ margin: 10px 0; border: 1px solid #BBDDE5; padding: 5px; color: #808080;background:#F4FaFb;
+            padding: 5px;}
+    </style>
+</block>
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/showlist">品牌列表</a>
+        <a href="__CONTROLLER__/append">【添加品牌】</a>
+    </div>
+
+    <div class="search">
+        <form action="__SELF__" style="height: 22px">
+            <img style="vertical-align: middle" src="{$Think.config.ADMIN_IMG_URL}/icon_search.gif" alt="SEARCH" width="26" height="22">
+            <input type="text" name="brand_name">
+            <input type="button" class="button" value="搜索">
+        </form>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist">
+        <tr>
+            <th>序号</th>
+            <th>商品品牌名称</th>
+            <th>商品品牌网络地址</th>
+            <th>商品品牌logo</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr class="attr">
+                <td align="center">{$v.brand_id}</td>
+                <td align="center">{$v.brand_name}</td>
+                <td align="center">{$v.brand_url}</td>
+                <td align="center">
+                    <a href="{$v.brand_logo}">
+                        <img src="{$Think.config.ADMIN_IMG_URL}/picflag.gif" alt="品牌LOGO">
+                    </a>
+                </td>
+                <td align="center"><a href="__CONTROLLER__/upd/brand_id/{$v.brand_id}">修改</a></td>
+                <td align="center"><a href="javascript:;" onclick="if (confirm('确定要删除该属性吗？')){
+                    window.location.href = '__CONTROLLER__/del/brand_id/{$v.brand_id}';}">删除</a></td>
+            </tr>
+        </foreach>
+        <tr><td colspan="7" align="center"  class="page">{$pagelist}</td></tr>
+    </table>
+
+</block>
+
+
+

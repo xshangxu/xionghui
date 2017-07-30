@@ -1,0 +1,141 @@
+[ 2017-04-17T21:34:05+08:00 ] 127.0.0.1 /index.php/Admin/User/register.html
+ERR: 无法加载控制器:User
+
+[ 2017-04-17T21:55:45+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+ERR: 无法加载控制器:Manage
+
+[ 2017-04-17T21:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:56:45+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T21:57:51+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:57:51+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:57:51+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T21:59:42+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:59:42+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T21:59:42+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T22:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T22:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/general.css
+ERR: 非法操作:application
+
+[ 2017-04-17T22:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Manage/application/views/admin/styles/main.css
+ERR: 非法操作:application
+
+[ 2017-04-17T22:00:23+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:00:57+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:01:33+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:05:55+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:06:21+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:06:47+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:09:21+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:11:41+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:57:30+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T22:58:59+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:26:15+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:28:20+08:00 ] 127.0.0.1 /index.php/Admin/Manage/privilege.php
+ERR: 非法操作:privilege.php
+
+[ 2017-04-17T23:28:27+08:00 ] 127.0.0.1 /index.php/Admin/Manage/privilege.php
+ERR: 非法操作:privilege.php
+
+[ 2017-04-17T23:28:34+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:28:36+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:28:51+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:37:23+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:42:10+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:42:41+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onlineshop.cz_manage' doesn't exist
+
+[ 2017-04-17T23:43:44+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:44:12+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:47:13+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:48:11+08:00 ] 127.0.0.1 /index.php/Admin/Manage/index.php?act=captcha&
+ERR: 非法操作:index.php
+
+[ 2017-04-17T23:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array.username' in 'where clause'
+

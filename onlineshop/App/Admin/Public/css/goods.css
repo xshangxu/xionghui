@@ -1,0 +1,24 @@
+/****************商品列表***************************/
+/* 搜索栏 */
+.search{ margin: 10px 0; border: 1px solid #BBDDE5; padding: 5px; color: #808080;
+    background: #E8F2FC url("../images/icon_search.gif") 5px center no-repeat ;}
+#searchFrom select{ vertical-align: middle; margin-left: 30px; }
+#searchFrom input{ border:1px solid #ccc; padding: 3px;border-radius: 2px; cursor: pointer; margin-left: 10px; }
+/****************商品列表***************************/
+
+
+/****************商品添加***************************/
+/* 通信信息 */
+.tabbar-div{ background: #80BDCB; height: 22px; margin-top: 1px; }
+.tab-front { background: #BBDDE5; line-height: 20px; font-weight: bold; padding: 4px 15px 3px 18px;
+    border-right: 2px solid #278296; cursor: pointer; font-size: 14px; }
+.tab-back { color: #FFF; line-height: 20px; padding: 4px 15px 4px 18px; border-right: 1px solid #FFF; cursor: pointer; }
+
+/*商品相册*/
+.add_img{text-decoration: none; color: #333;}
+.del_img{text-decoration: none; color: #333;}
+/****************商品添加***************************/
+
+
+
+

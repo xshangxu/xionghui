@@ -1,0 +1,26 @@
+*{ margin: 0; padding: 0; list-style: none; }
+a{ text-decoration: none; }
+
+/*网页头部*/
+.top{ width: 100%; height: 62px; background-color:rgba(0,0,0,.1); }
+.top_inner{ width: 1200px; height: 62px; margin: 0 auto; }
+.logo{ float: left; }
+.logo i{ font-size: 35px; line-height: 62px; font-weight: bold; }
+.navbar{ float: left; }
+.navbar li{ float: left; }
+.nav_a{ display: inline-block;margin-left: 30px; line-height: 62px; color: #3d3938; font-weight: bold;}
+.nav_a:hover{ color: #00a7e1; }
+.nav_selected{ color: #00a7e1; }
+.tools{ float: right; line-height: 62px; position: relative; width: 290px;}
+.search{ float: left; position: relative;}
+.search_inp{ border: 1px solid #3d3938; border-radius: 5px; height: 27px; outline:none; width: 213px; padding: 0 5px;}
+.search i{ position: absolute; display: inline-block; width: 20px; height: 20px; background: url("../images/search.png") no-repeat;
+    background-size: 100%; }
+.icon{ position: absolute; width: 20px; height: 20px; overflow: hidden; }
+.icon:nth-child(2){ top: 21px; right: 2px; }
+.icon:nth-child(3){ top: 21px; right: 40px; }
+.member{ position: absolute; display: inline-block; width: 20px; height: 20px; background: url("../images/member.png") no-repeat;
+    background-size: 100%; }
+.cart{ position: absolute; display: inline-block; width: 20px; height: 20px; background: url("../images/cart.png") no-repeat;
+    background-size: 100%; }
+.icon_hover{ left: -20px; border-right: 20px solid transparent; filter: drop-shadow(20px 0); -webkit-filter: drop-shadow(20px 0px); color: #00a7e1; }

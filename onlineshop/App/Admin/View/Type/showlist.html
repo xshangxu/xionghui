@@ -1,0 +1,33 @@
+<extend name="Base/base" />
+
+<block name="right">
+    <!-- 面包屑导航 -->
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/showlist">类型列表</a>
+        <a href="__CONTROLLER__/append">【添加商品类型】</a>
+    </div>
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist" style="margin-top: 10px">
+        <tr>
+            <th>序号</th>
+            <th>商品类型名称</th>
+            <th colspan="3">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr>
+                <td align="center">{$v.type_id}</td>
+                <td align="center">{$v.type_name}</td>
+                <td align="center"><a href="__MODULE__/Attribute/showlist/type_id/{$v.type_id}">属性列表</a></td>
+                <td align="center"><a href="__CONTROLLER__/upd/type_id/{$v.type_id}">修改</a></td>
+                <td align="center"><a href="javascript:;" onclick="if (confirm('确定要删除吗？')){
+                    window.location.href = '__CONTROLLER__/del/type_id/{$v.type_id}'
+                }">删除</a></td>
+            </tr>
+        </foreach>
+        <tr>
+            <td align="center" colspan="5" class="page">{$pagelist}</td>
+        </tr>
+
+    </table>
+
+
+</block>

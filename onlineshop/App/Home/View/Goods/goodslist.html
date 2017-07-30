@@ -1,0 +1,27 @@
+<extend name="Base/base" />
+<block name="head">
+    <title>Eightnoo</title>
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}/goods.css">
+    <script type="text/javascript" src="{$Think.config.JS_URL}/goods.js"></script>
+</block>
+
+<block name="body">
+    <div class="type">
+        <foreach name="infoType" item="v">
+            <a href="__CONTROLLER__/goodslist/cat_id/{$v.cat_id}">{$v.cat_name}</a>
+        </foreach>
+        <!--<a href="" class="type_active">BNC adapter</a>-->
+    </div>
+    <div class="product">
+        <div class="module_items">
+            <foreach name="info" item="vv">
+                <a class="item" href="{$Think.config.HOME_URL}/Goods/details/goods_id/{$vv.goods_id}">
+                    <img src="{$Think.config.REALM_URL}{$vv.goods_thumb}" alt="">
+                    <div class="title">{$vv.goods_name}</div>
+                    <div class="description">{$vv.goods_brief}</div>
+                </a>
+            </foreach>
+        </div>
+
+    </div>
+</block>

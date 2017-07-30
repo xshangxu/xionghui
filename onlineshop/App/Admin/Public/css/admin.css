@@ -1,0 +1,37 @@
+*{ margin:0; padding: 0;}
+
+/*后台首页头部样式*/
+.head{margin-bottom: 10px; min-width: 1300px; width: 100%; height:56px;  position: relative; background: #4c8fb1; }
+.head_left{ width: 185px; height: 56px; float: left; color: #fff; line-height: 56px; padding-left: 20px; font-size: 20px; }
+.head ul{position: absolute; width:400px; height: 30px; list-style: none; bottom: 0; left: 50%; margin-left: -200px;  }
+.head ul li{ float: left; color: #fff; font-size: 14px;font-weight: bold; margin-left: 30px; line-height: 30px; }
+.head ul li a{ color: #fff; text-decoration: none; font-size: 14px;font-weight: bold; }
+.head_right{position: absolute; width: 268px; height: 56px; top: 0; right: 0; }
+
+/*后台首页左边样式*/
+.left{width: 170px; float: left; }
+.menuparent{ color: #333; text-decoration: none; font-size: 16px; display: inline-block; }
+.menuchild { color: #333; text-decoration: none; font-size: 14px; }
+
+
+/*后台首页右边样式*/
+.right{ margin-left: 175px;}
+.crumbs{ height: 28px; background: url("../images/title_bg1.jpg") repeat-x; line-height: 28px; font-size: 16px;
+    padding-left: 10px; border-bottom: 1px solid rgb(177,206,239); }
+.crumbs a{ text-decoration: none; color: grey; font-size: 15px;  }
+.crumbs a:last-child{ float: right; color: #0e90d2; }
+
+/* 后台右边表格样式 */
+.tabbody-div{ padding: 20px; }
+.tab-div{ border: 1px solid #00b3ff; margin-top: 10px; }
+.tablelist{ background: #fff; }
+.tablelist th{ background: #bbdde5 url("../images/th_bg.gif") repeat-x; line-height: 25px; }
+.tablelist td{ border:0.5px solid #E3E6EB; }
+td.label { text-align: right; vertical-align: top; font-weight: bold; padding: 5px 1em; width: 30%; font-size: 13px;}
+/*按钮*/
+.button-div{ padding: 20px 0 3px 300px;  }
+.button{  cursor: pointer; margin-left: 10px; padding: 2px 8px 0; border: 1px solid #2D5082; background: url("../images/button_bg.gif"); }
+
+/* 分页样式 */
+.page a{ text-decoration:none; color: #333; }
+.page a:hover{ color: red; }

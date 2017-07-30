@@ -1,0 +1,30 @@
+[ 2017-06-21T21:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Manage/ligin
+ERR: 非法操作:ligin
+
+[ 2017-06-21T21:12:30+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-21T21:12:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+

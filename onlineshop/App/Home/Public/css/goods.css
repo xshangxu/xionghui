@@ -1,0 +1,79 @@
+/********************产品列表页面*******************************/
+/*产品种类导航*/
+.type{ width: 1200px; margin: 0 auto; height: 60px; }
+.type a{ border-right: 1px solid #fff; display: block; float: left; color: #3d3938; padding: 0 47.2px; line-height: 60px; background: #eee; }
+.type a:hover{ color: #00a7e1; }
+a.type_active{ background: #fff; color: #00a7e1; }
+
+/*商品列表样式*/
+.product{ width: 1200px; margin: 0 auto; }
+.module{ width: 1200px; height: 628px; margin: 35px auto 0; }
+.module_title{ font-size: 2.2rem; text-align: center; color: #3d3938; margin: 8px; }
+.module-description{ font-size: 1rem; color: #9e9f9f; text-align: center; margin: 8px; }
+.module_items{  overflow: hidden; }
+.item{ margin: 24px 9px 0; display: block; float: left; overflow: hidden; border: 1px solid #eee; }
+.item:hover{ border-color:  #00a7e1; }
+.item img{ width: 252px; height: 252px; padding: 14px; }
+.title{ font-size: 16px; width: 264px; color: #3d3938; line-height: 21px; height: 42px; text-align: center; margin: 8px; }
+.description{ width: 264px; margin: 0 8px 14px; text-align: center; color:#9e9f9f; }
+.module-more{ padding: 30px; height: 40px; }
+.module-more a{ margin-left: 360px; width:420px; height: 40px; color: #3d3938; background: #eee; display: block; text-align: center; line-height: 40px; }
+.module-more a:hover{ background:#00a7e1; color: white;  }
+
+/***********************产品详情页面*********************************/
+/*面包屑导航*/
+.crumbs{ width: 1200px; padding:35px 0 20px; margin: 0 auto; }
+.wrapper a{ color:#3d3938; font-size: 13px; }
+.split{ font-size: 13px; }
+.cur{ color:#00a7e1; font-size: 13px; }
+
+/*产品图片及信息展示*/
+.product_view{ width: 1200px; margin: 0 auto; height: 704px; }
+.carousel{ width: 684px; height: 704px; float: left; }
+.carousel_image{ width: 600px; height: 600px; margin: 0 42px; position: relative; }
+.carousel_image img{ width:600px; height: 600px; position: absolute; top: 0; display: none; }
+.carousel_image img:first-child{ display: block; }
+.carousel_images{ width: 600px; height: 97px; margin: 7px 42px 0; }
+.ctrl{ color: #9e9f9f; width: 30px; height: 97px; line-height: 97px; font-size: 40px; display: none; }
+.ctrl:hover{ color: #00a7e1; font-size: 42px; }
+.product_prev{ float: left; }
+.product_next{ float: right; }
+.carousel_page{ width:540px; height: 97px; float: left; overflow: hidden; }
+.carousel_page ul{ width: 200%; height: 97px; }
+.carousel_page li{ float:left; padding: 3px 7px; }
+.carousel_img{ border: 1px solid #fff; width: 92px; height: 92px; cursor: pointer; }
+.carousel_img:hover{ border-color: #00a7e1; }
+.img_active{ border-color: #00a7e1; }
+.information{ width: 480px; height: 704px; float: left; padding-left: 36px; }
+.info_title{ width: 100%; font-size:32px; color: #3d3938; }
+.info_desc{ margin-top: 21px; color: #3d3938; font-size: 18px; }
+.price{ margin: 14px 0; font-size: 30px; }
+.info_p{ line-height: 48px; color: #3d3938; font-size: 20px; margin-bottom: 5px; }
+.color{ color: #333; border: 1px solid #ccc; padding: 3px 14px; margin: 0 10px 0 0; }
+.color:hover{ border:2px solid #e4393c; padding: 2px 13px;  }
+.color_selected{ border:2px solid #e4393c; padding: 2px 13px; background: url("../images/arrow.gif") bottom right no-repeat; }
+.info_color input{ display: none; }
+.info_num{ margin-top: 14px; }
+.info_num div{ border: 1px solid #eee; display: table; border-radius: 5px; overflow: hidden; }
+.info_num a{ text-align: center; color: #3d3938; font-size: 20px; display: block; height: 30px; width: 30px; float: left; line-height: 30px; }
+.info_num a:hover{ background: #00a7e1; color: #fff; }
+.reduce_l{ border-right: 1px solid #eee; }
+.add_r{ border-left: 1px solid #eee; }
+.number{ width:55px; height: 30px; border: none; outline: none; vertical-align: bottom; float: left; text-align: center; }
+.info_btn{ border-radius: 5px; font-size: 20px; display: block; text-align: center; color: #fff; line-height: 42px; margin-top: 21px; }
+.store{ background: #00a7e1; }
+.amazon{ background: #fab23a; }
+
+/* 产品特点 */
+.prod_fea{ width: 1200px; margin: 20px auto 0; }
+.prod_fea div{ font-size: 22px; font-weight: bold; }
+.prod_fea li{ font-size: 18px; margin-top: 20px; }
+
+/*产品套餐*/
+.prod_pack{ width: 1200px; margin: 67px auto 0; }
+.prod_pack div{ font-size: 22px; font-weight: bold;  }
+.prod_pack p{ font-size: 18px; margin-top: 20px; }
+
+
+
+

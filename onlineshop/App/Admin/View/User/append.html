@@ -1,0 +1,44 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <title>添加会员</title>
+</block>
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/append">添加用户</a>
+        <a href="__CONTROLLER__/showlist">【用户列表】</a>
+    </div>
+
+    <div class="tab-div">
+        <form action="__SELF__" method="post">
+            <table width="100%" cellpadding="1" cellspacing="0" style="margin-top: 10px">
+                <tr>
+                    <td align="right" class="label">用户名：</td>
+                    <td><input type="text" name="user_name"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">密码：</td>
+                    <td><input type="password" name="user_pwd"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">确认密码：</td>
+                    <td><input type="password" name="pwd_again"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">邮箱：</td>
+                    <td><input type="email" name="user_email" /></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">电话号码：</td>
+                    <td><input type="tel" name="user_tel" /></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type='submit' class="button" value="添加" style="margin: 20px 0px"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</block>

@@ -1,0 +1,67 @@
+[ 2017-05-26T00:45:04+08:00 ] 127.0.0.1 /index.php/Home/Index/Goods/goodslist/cat_id/2
+ERR: 非法操作:Goods
+
+[ 2017-05-26T19:09:51+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '张良梁' LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '张良梁' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T19:10:09+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 11 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','11','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-26T19:10:17+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 11 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','11','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i5 4G内存 银白色') [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T19:22:51+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 11 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2',`cart_status`='1' WHERE `cart_id` = 35 [ RunTime:0.0640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

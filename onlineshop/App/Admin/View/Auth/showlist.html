@@ -1,0 +1,37 @@
+<extend name="Base/base" />
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：权限管理-><a href="__CONTROLLER__/showlist">权限列表</a>
+        <a href="__CONTROLLER__/append">【添加权限】</a>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist" style="margin-top: 10px">
+        <tr>
+            <th>序号</th>
+            <th>权限名称</th>
+            <th>权限父ID</th>
+            <th>模块</th>
+            <th>方法</th>
+            <th>全路径</th>
+            <th>级别</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr align="center">
+                <td>{$v.auth_id}</td>
+                <td><?php echo str_repeat('&nbsp;&nbsp;&nbsp;',$v['auth_level']); ?>{$v.auth_name}</td>
+                <td>{$v.auth_pid}</td>
+                <td>{$v.auth_c}</td>
+                <td>{$v.auth_a}</td>
+                <td>{$v.auth_path}</td>
+                <td>{$v.auth_level}</td>
+                <td><a href="__CONTROLLER__/upd/auth_id/{$v.auth_id}">修改</a></td>
+                <td><a href="javascript:;"onclick="if(confirm('确定要删除吗？')){
+                     window.location.href = '__CONTROLLER__/del/auth_id/{$v.auth_id}';}">删除</a></td>
+
+            </tr>
+        </foreach>
+    </table>
+
+</block>

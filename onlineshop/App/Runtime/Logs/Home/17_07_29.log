@@ -1,0 +1,35 @@
+[ 2017-07-29T11:45:29+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cz_user` (`user_name`,`user_pwd`,`user_tel`,`user_email`,`add_time`) VALUES ('xiong','e10adc3949ba59abbe56e057f20f883e','18174006076','18174006076@163.com','1501299929') [ RunTime:0.0730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-29T12:13:42+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'xiong' LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'xiong' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

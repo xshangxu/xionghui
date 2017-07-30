@@ -1,0 +1,12 @@
+[ 2017-05-20T21:42:39+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0624s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+

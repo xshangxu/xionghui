@@ -1,0 +1,88 @@
+<extend name="Base/base" />
+<block name="head">
+    <title>Eightnoo</title>
+    <link rel="stylesheet" href="{$Think.config.CSS_URL}/goods.css">
+    <script type="text/javascript" src="{$Think.config.JS_URL}/goods.js"></script>
+</block>
+
+<block name="body">
+    <div class="crumbs">
+        <div class="wrapper">
+            <a href="/">Home</a>
+            <span class="split">/</span>
+            <a href="/products">products</a>
+            <span class="split">/</span>
+            <a href="/products/taxons/107/Batteries">Batteries</a>
+            <span class="split">/</span>
+            <span class="cur">{$info.goods_name}</span>
+        </div>
+    </div>
+
+    <div class="product_view">
+        <div class="carousel">
+            <div class="carousel_image">
+                <foreach name="newPic" item="v">
+                    <img src="{$Think.config.REALM_URL}{$v.middle_img}" alt="">
+                </foreach>
+            </div>
+            <div class="carousel_images">
+                <a href="javascript:;" class="ctrl product_prev">&lt;</a>
+                <a href="javascript:;" class="ctrl product_next">&gt;</a>
+                <div class="carousel_page">
+                    <ul>
+                        <!--<li><img class="img_active carousel_img" src="{$Think.config.IMG_URL}/product1_s1" alt=""></li>-->
+                        <foreach name="newPic" item="vv">
+                            <li><img class="carousel_img" src="{$Think.config.REALM_URL}{$vv.small_img}" alt=""></li>
+                        </foreach>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="info_title">{$info.goods_name}</div>
+            <div class="info_desc">{$info.goods_brief}</div>
+            <div class="price">${$info.shop_price}</div>
+            <form action="">
+                <!--<div class="info_color">-->
+                    <!--<p class="info_p">Color:</p>-->
+                    <!--<a href="javascript:;" class="color color_selected">黑色<input type="radio" name="color"></a>-->
+                    <!--<a href="javascript:;" class="color">红色<input type="radio" name="color"></a>-->
+                <!--</div>-->
+                <div class="info_num">
+                    <p class="info_p">Quantity:</p>
+                    <div>
+                        <a href="javascript:;" class="reduce_l">-</a>
+                        <input class="number" type="text" name="number" value="1" >
+                        <a href="javascript:;" class="add_r">+</a>
+                    </div>
+                </div>
+                <a href="javascript:;" class="info_btn store">ADD TO CART</a>
+                <a href="{$info.goods_link}" class="info_btn amazon">BUY AT AMAZON US</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- 产品特点 -->
+    <div class="prod_fea">
+        <div>Features</div>
+        <ul>
+           <foreach name="info.goods_desc" item="v">
+               <li>{$v}</li>
+           </foreach>
+        </ul>
+    </div>
+
+    <!-- 产品套餐内容 -->
+    <div class="prod_pack">
+        <div>Package included</div>
+        <p>{$info.goods_package}</p>
+    </div>
+
+</block>
+
+
+
+
+
+
+

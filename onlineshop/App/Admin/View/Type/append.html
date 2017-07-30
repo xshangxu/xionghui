@@ -1,0 +1,22 @@
+<extend name="Base/base" />
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/append">添加商品类型</a>
+        <a href="__CONTROLLER__/showlist">【商品类型列表】</a>
+    </div>
+
+    <div class="tab-div">
+        <form action="__SELF__" method="post">
+            <table width="100%" cellpadding="1" cellspacing="0" style="margin-top: 10px">
+                <tr>
+                    <td align="right" class="label">类型名称：</td>
+                    <td><input type="text" name="type_name"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" class="button" value="添加" style="margin: 20px 0px"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</block>

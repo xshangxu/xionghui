@@ -1,0 +1,2119 @@
+[ 2017-05-03T09:23:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/103
+ERR: XML标签语法错误 : name="newArrSel" item="v" key
+
+[ 2017-05-03T09:24:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/103
+ERR: XML标签语法错误 : name="newArrSel" item="v" key
+
+[ 2017-05-03T09:24:21+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/103
+ERR: XML标签语法错误 : name="newArrSel" item="v" key
+
+[ 2017-05-03T10:53:05+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.1248s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T11:26:02+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T13:03:45+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_galary` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_galary` WHERE `goods_id` = 0 ORDER BY img_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: weight_unit E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 30 行.
+NOTIC: [8] Undefined index: goods_weight E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: newPic E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: newAttrSel E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: newAttr E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 31 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 33 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 39 行.
+NOTIC: [8] Undefined index: goods_desc E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 138 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 166 行.
+NOTIC: [8] Undefined index: market_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 167 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 168 行.
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 225 行.
+NOTIC: [8] Undefined index: goods_sn E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:03:50+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_galary` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_galary` WHERE `goods_id` = 0 ORDER BY img_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: weight_unit E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 30 行.
+NOTIC: [8] Undefined index: goods_weight E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: newPic E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: newAttrSel E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: newAttr E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 31 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 33 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 39 行.
+NOTIC: [8] Undefined index: goods_desc E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 138 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 166 行.
+NOTIC: [8] Undefined index: market_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 167 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 168 行.
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 225 行.
+NOTIC: [8] Undefined index: goods_sn E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:04:44+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:05:05+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:08:24+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.2390s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T13:08:50+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T13:08:57+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:12:35+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-03T13:13:50+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:14:09+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T13:14:14+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:15:23+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:15:30+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:16:57+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:20:03+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:20:12+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:20:17+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:20:25+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:21:43+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:29:48+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:33:22+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+ERR: 非法操作:addCart
+
+[ 2017-05-03T13:33:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_galary` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_galary` WHERE `goods_id` = 0 ORDER BY img_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: weight_unit E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 30 行.
+NOTIC: [8] Undefined index: goods_weight E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: newPic E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: newAttrSel E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: newAttr E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 31 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 33 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 39 行.
+NOTIC: [8] Undefined index: goods_desc E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 138 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 166 行.
+NOTIC: [8] Undefined index: market_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 167 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 168 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 174 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 175 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 229 行.
+NOTIC: [8] Undefined index: goods_sn E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:33:55+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/Goods/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_galary` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_galary` WHERE `goods_id` = 0 ORDER BY img_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: weight_unit E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 30 行.
+NOTIC: [8] Undefined index: goods_weight E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: newPic E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: newAttrSel E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: newAttr E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 31 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 33 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 39 行.
+NOTIC: [8] Undefined index: goods_desc E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 138 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 166 行.
+NOTIC: [8] Undefined index: market_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 167 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 168 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 174 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 175 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 229 行.
+NOTIC: [8] Undefined index: goods_sn E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:35:28+08:00 ] 127.0.0.1 /index.php/Home/Goods/details/goods_id/Goods/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_galary` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `cz_galary` WHERE `goods_id` = 0 ORDER BY img_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_goods_attr` WHERE `goods_id` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: weight_unit E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 30 行.
+NOTIC: [8] Undefined index: goods_weight E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 31 行.
+NOTIC: [8] Undefined variable: newPic E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: newAttrSel E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: newAttr E:\wamp64\www\onlineshop\App\Home\Controller\GoodsController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 31 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 33 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 39 行.
+NOTIC: [8] Undefined index: goods_desc E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 138 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 166 行.
+NOTIC: [8] Undefined index: market_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 167 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 168 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 173 行.
+NOTIC: [8] Undefined index: goods_thumb E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 174 行.
+NOTIC: [8] Undefined index: shop_price E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 175 行.
+NOTIC: [8] Undefined index: goods_name E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 229 行.
+NOTIC: [8] Undefined index: goods_sn E:\wamp64\www\onlineshop\App\Runtime\Cache\Home\6e72048ebf1732669f4dabcc15d46771.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:35:38+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:40:17+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:40:46+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:41:08+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-03T13:44:31+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:44:49+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:45:09+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:46:49+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0390s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:50:17+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:50:38+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:51:32+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:54:34+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:56:26+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T13:57:26+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T13:57:34+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:06:07+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T14:08:49+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:09:06+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: attr_name% E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:32:56+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0300s ]
+NOTIC: [2] key() expects parameter 1 to be array, string given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:43:59+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0070s ]
+NOTIC: [2] key() expects parameter 1 to be array, string given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T14:49:32+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0140s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-03T14:50:00+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0140s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:51:21+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T14:52:56+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:54:03+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T14:59:09+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0180s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:01:24+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.4350s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:02:07+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:02:23+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0140s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:02:51+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:04:06+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0180s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:04:29+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:05:22+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [2] key() expects parameter 1 to be array, null given E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-03T15:09:04+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:12:24+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'goods_attr' doesn't have a default value
+
+[ 2017-05-03T15:14:09+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`) VALUES ('103','5','联想小新700') [ RunTime:0.2540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T15:14:58+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_img' at row 1
+
+[ 2017-05-03T15:15:56+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0090s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_attr' at row 1
+
+[ 2017-05-03T15:18:04+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_attr' at row 1
+
+[ 2017-05-03T15:19:10+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+
+[ 2017-05-03T15:19:26+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+
+[ 2017-05-03T15:20:21+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+
+[ 2017-05-03T15:20:58+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0120s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','1','4998','i7 8G内存
+ 银白色') [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T15:21:31+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0050s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','1','4998.00','4998','i7 8G内存
+ 银白色') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T15:25:36+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','5','4998.00','24990','i7 8G内存
+ 黑色
+') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:30:59+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0170s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','5','4998.00','24990','i7 8G内存
+ 黑色
+') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:33:34+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0100s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','5','4998.00','24990','i7 8G内存
+ 黑色
+') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:33:36+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','5','4998.00','24990','i7 8G内存
+ 黑色
+') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:33:41+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','1','4998.00','4998','i7 8G内存
+ 银白色') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T15:33:51+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','4','4998.00','19992','i5 4G内存 黑色
+') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T16:32:38+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T18:15:00+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0860s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T19:59:40+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T22:17:00+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_name' at row 1
+
+[ 2017-05-03T22:18:12+08:00 ] 127.0.0.1 /index.php/Cart/cartlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0312s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T22:23:30+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.1600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T22:40:26+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T22:40:31+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T22:40:45+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:41:32+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:42:30+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:45:05+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:45:17+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:48:21+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:48:26+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T22:50:23+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder?cart_id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T22:54:03+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder?cart_id=10&goods_number=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:55:14+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder?cart_id=10&goods_number=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T22:55:24+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-03T22:58:12+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:05:09+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='3' WHERE `cart_id` = 10 [ RunTime:0.1070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:05:34+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='5' WHERE `cart_id` = 10 [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:05:53+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:06:16+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:10:32+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:10:43+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:15:22+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0130s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1' WHERE `cart_id` = 5 [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:16:32+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+
+[ 2017-05-03T23:17:47+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0020s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:18:27+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-03T23:18:56+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:19:11+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0030s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='3' WHERE `cart_id` = 10 [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:19:40+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2' WHERE `cart_id` = 10 [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:20:36+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2',`cart_status`='1' WHERE `cart_id` = 10 [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:37:38+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('5','来日方长','江西省','南昌市','新建县','新建生米镇（红谷滩新区）丰和南大道696号南昌航空大 ','18174006076') [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-03T23:41:17+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:19+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:41:20+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:20+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:21+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0030s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:41:30+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:30+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:31+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:41:31+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:41:31+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:31+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:41:37+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:41:50+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:42:02+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:42:27+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:42:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:42:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-03T23:42:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-03T23:42:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 9 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-03T23:43:31+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0624s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-05-03T23:43:40+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0020s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='5',`cart_status`='1' WHERE `cart_id` = 7 [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

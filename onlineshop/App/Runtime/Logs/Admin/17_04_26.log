@@ -1,0 +1,2080 @@
+[ 2017-04-26T00:05:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/indx
+ERR: 非法操作:indx
+
+[ 2017-04-26T00:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-04-26T00:11:14+08:00 ] 127.0.0.1 /index.php/Admin/Manage/logout
+ERR: 非法操作:logout
+
+[ 2017-04-26T00:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Manage/logout
+ERR: 模板不存在:E:/wamp64/www/onlineshop/App/Admin/View/Manage/logout.html
+
+[ 2017-04-26T00:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Manage/checkCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T00:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Manage/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T08:13:35+08:00 ] 127.0.0.1 /index.php/Admin/Type/showlist
+ERR: 无法加载控制器:Type
+
+[ 2017-04-26T09:38:14+08:00 ] 127.0.0.1 /index.php/Admin/Typedel/type_id/1
+ERR: 无法加载控制器:Typedel
+
+[ 2017-04-26T09:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Type/append
+ERR: 非法操作:append
+
+[ 2017-04-26T17:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/append.html/attr_id/3
+ERR: 非法操作:append.html
+
+[ 2017-04-26T18:05:14+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:05:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T18:06:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:11:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:11:59+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:21:05+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:35:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-04-26T18:35:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-04-26T18:46:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:46:24+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:46:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T18:46:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:47:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:47:45+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:47:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:47:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T18:47:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T18:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T18:48:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:48:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T18:48:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T18:48:21+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:01:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:02:19+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:02:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:02:24+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:03:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:03:37+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:03:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:06:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:08:24+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:09:02+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:09:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:09:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:12:59+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:14:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:14:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T19:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:53:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:54:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T19:54:34+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:57:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T19:57:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-26T19:57:46+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T19:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:01:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:03:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:03:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0420s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T20:05:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T20:06:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T20:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T20:06:10+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T20:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 6  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:06:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:06:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T20:07:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T20:10:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:11:02+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:11:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T20:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T20:52:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T21:00:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:00:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T21:02:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-26T21:09:57+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:11:13+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:11:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:11:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:13:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:13:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:16:37+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:16:39+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T21:16:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:18:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:25:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:30:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-26T21:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:34:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:35:00+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:35:09+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:35:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:36:55+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:37:20+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:40:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:40:21+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:40:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T21:44:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:44:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:45:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-04-26T21:45:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T21:53:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T21:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T22:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:13:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:13:05+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-04-26T22:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T22:20:27+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:20:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 6  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:29:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:30:36+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T22:32:35+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:34:20+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T22:34:23+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T22:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T22:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T22:38:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T23:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-04-26T23:23:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:41:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:44:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T23:44:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T23:45:34+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T23:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:48:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-04-26T23:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T23:54:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:54:08+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T23:54:11+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:54:26+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-26T23:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0390s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T23:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:56:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 2 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T23:56:16+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 3 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:56:32+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: pagelsit E:\wamp64\www\onlineshop\App\Admin\Controller\AttributeController.class.php 第 119 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:57:38+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id LIMIT 0,15   [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:57:48+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-26T23:58:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_attribute` ORDER BY type_id LIMIT 0,15   [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-26T23:59:05+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-26T23:59:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr?type_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 4 ORDER BY type_id LIMIT 0,15   [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

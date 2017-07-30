@@ -1,0 +1,105 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <link rel="stylesheet" href="{$Think.config.ADMIN_CSS_URL}/goods.css">
+</block>
+
+<block name="right">
+    <!-- 面包屑导航 -->
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/showlist">商品列表</a>
+        <a href="__CONTROLLER__/append">【添加商品】</a>
+    </div>
+
+    <!-- 查询 搜索 -->
+    <div class="search">
+        <form action="" id="searchFrom">
+            <!--<img src="{$Think.config.ADMIN_IMG_URL}/icon_search.gif" height="22" width="26"/>-->
+            <!-- 分类 -->
+            <select name="" >
+                <option value="0">所有分类</option>
+            </select>
+
+            <!-- 品牌 -->
+            <select name="">
+                <option value="0">所有品牌</option>
+            </select>
+
+            <input type="submit" value="查询"  >
+        </form>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist">
+        <tr>
+            <th>编号</th>
+            <th>商品名称</th>
+            <th>库存</th>
+            <th>价格</th>
+            <th>上架</th>
+            <th>新品</th>
+            <th>精品</th>
+            <th>热销</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v" >
+        <tr align="center" >
+            <td>{$v.goods_id}</td>
+            <td>{$v.goods_name}</td>
+            <td>{$v.goods_number}</td>
+            <td>{$v.shop_price}</td>
+            <td>
+                <?php
+                if($v['is_onsale'] == '1'){
+                ?>
+                    <img src="{$Think.config.ADMIN_IMG_URL}/yes.gif" />
+                <?php
+                    }else{
+                ?>
+                    <img src="{$Think.config.ADMIN_IMG_URL}/no.gif" />
+                <?php } ?>
+            </td>
+            <td>
+                <?php
+                if($v['is_new'] == '1'){
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/yes.gif" />
+                <?php
+                    }else{
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/no.gif" />
+                <?php } ?>
+            </td>
+            <td>
+                <?php
+                    if($v['is_best'] == '1'){
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/yes.gif" />
+                <?php
+                    }else{
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/no.gif" />
+                <?php } ?>
+            </td>
+            <td>
+                <?php
+                if($v['is_hot'] == '1'){
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/yes.gif" />
+                <?php
+                    }else{
+                ?>
+                <img src="{$Think.config.ADMIN_IMG_URL}/no.gif" />
+                <?php } ?>
+            </td>
+            <td><a href="__CONTROLLER__/upd/goods_id/{$v.goods_id}">修改</a></td>
+            <td><a href="javascript:;" onclick="if(confirm('你确定要删除该商品吗？')){
+                window.location.href = '__CONTROLLER__/del/goods_id/{$v.goods_id}';
+            }">删除</a></td>
+        </tr>
+        </foreach>
+
+        <tr>
+            <td colspan="10" align="center" class="page">{$pagelist}</td>
+        </tr>
+    </table>
+</block>

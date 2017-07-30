@@ -1,0 +1,47 @@
+<extend name="Base/base" />
+<block name="right">
+    <div class="crumbs">
+        当前位置：权限管理-><a href="__CONTROLLER__/upd">修改权限</a>
+        <a href="__CONTROLLER__/showlist">【权限列表】</a>
+    </div>
+
+    <div class="tab-div">
+        <form action="__SELF__" method="post">
+            <table width="100%" cellpadding="1" cellspacing="0" style="margin-top: 10px">
+                <tr>
+                    <td align="right" class="label">权限名称：</td>
+                    <td><input type="text" name="auth_name" value="{$info.auth_name}"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">权限上级：</td>
+                    <td>
+                        <select name="auth_pid">
+                            <option value="0">==请选择==</option>
+                            <foreach name="pinfo" item="v">
+                                <equal name="info['auth_pid']" value="$v['auth_id']">
+                                    <option value='{$v.auth_id}' selected="selected">
+                                        <else />
+                                    <option value='{$v.auth_id}'>
+                                </equal>
+                                {:str_repeat('&nbsp;&nbsp;',$v['auth_level'])}{$v.auth_name}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">控制器：</td>
+                    <td><input type="text" name="auth_c" value="{$info.auth_c}" /></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">操作方法：</td>
+                    <td><input type="text" name="auth_a" value="{$info.auth_a}" /></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type='submit' class="button" value="修改" style="margin: 20px 0px"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</block>
+

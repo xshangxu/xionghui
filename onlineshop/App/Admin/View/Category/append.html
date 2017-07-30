@@ -1,0 +1,36 @@
+<extend name="Base/base" />
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/append">添加分类</a>
+        <a href="__CONTROLLER__/showlist">【分类列表】</a>
+    </div>
+
+    <div class="tab-div">
+        <form action="__SELF__" method="post">
+            <table width="90%" cellpadding="1" cellspacing="0" style="margin-top: 10px">
+                <tr>
+                    <td align="right" class="label">分类名称：</td>
+                    <td><input type="text" name="cat_name"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">分类上级：</td>
+                    <td>
+                        <select name="cat_pid">
+                            <option value="0">==请选择==</option>
+                            <foreach name="pinfo" item="v">
+                                <option value="{$v.cat_id}">
+                                    {:str_repeat('&nbsp;&nbsp;',$v['cat_level'])}{$v.cat_name}
+                                </option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type='submit' class="button" value="添加" style="margin: 20px 0px"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</block>

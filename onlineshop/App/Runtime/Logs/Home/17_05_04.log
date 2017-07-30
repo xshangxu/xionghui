@@ -1,0 +1,1885 @@
+[ 2017-05-04T00:18:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='5',`cart_status`='1' WHERE `cart_id` = 7 [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T00:18:28+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 5 [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:35:41+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:40:23+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-04T00:43:50+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:44:28+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:46:57+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T00:50:15+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830215') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:51:47+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830307','9996.00') [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T00:55:17+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830517','9996.00') [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T00:55:20+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830520','9996.00') [ RunTime:0.0470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T00:56:19+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 5 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:56:19+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='5',`cart_status`='1' WHERE `cart_id` = 7 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:56:19+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 8 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:56:38+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830598','24990.00') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:56:38+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830598','24990.00') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T00:56:38+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830598','9996.00') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-04T00:56:38+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('5','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','8','1493830598','4998.00') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T01:13:48+08:00 ] 127.0.0.1 /index.php/Home/Order/orderlist
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-05-04T01:13:59+08:00 ] 127.0.0.1 /index.php/Home/Order/orderlist
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-05-04T01:14:00+08:00 ] 127.0.0.1 /index.php/Home/Order/orderlist
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2017-05-04T01:14:08+08:00 ] 127.0.0.1 /index.php/Home/Order/orderlist
+ERR: Think\Controller:assnig方法不存在！
+
+[ 2017-05-04T01:43:26+08:00 ] 127.0.0.1 /index.php/Home/User/checkCode?checkCode=fyxa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T01:43:27+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0322s ]
+SQL: INSERT INTO `cz_user` (`user_name`,`user_pwd`,`user_tel`,`user_email`,`add_time`) VALUES ('tom','e10adc3949ba59abbe56e057f20f883e','15889305597','15889305597@163.com','1493833406') [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T01:43:44+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'tom' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'tom' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T01:44:06+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','6','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T01:44:42+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2',`cart_status`='1' WHERE `cart_id` = 11 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T01:44:45+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0000s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T01:44:46+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0000s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T01:44:47+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0000s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T01:48:04+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('6','tom','江西省','南昌市','东湖区','丰和南大道696号','18174006076') [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T01:48:42+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 6  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('6','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','10','1493833722','9996.00') [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:11:07+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:11:20+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:12:23+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:12:34+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_user` (`user_name`,`user_pwd`,`user_tel`,`user_email`,`add_time`) VALUES ('jack','e10adc3949ba59abbe56e057f20f883e','18175467845','1234@qq.com','1493860354') [ RunTime:0.1248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:12:59+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:17:44+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_name' at row 1
+
+[ 2017-05-04T09:27:35+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_name' at row 1
+
+[ 2017-05-04T09:29:37+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','7','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i5 4G内存 银白色') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:30:35+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','7','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i5 4G内存 银白色') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-04T09:32:08+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:32:17+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:32:38+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('104','7','联想拯救者','Common/Uploads/2017-05-02/small_59087cd5db11f.jpg','1','6499.00','6499','红色
+ i7 8G内存
+') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:32:44+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('104','7','联想拯救者','Common/Uploads/2017-05-02/small_59087cd5db11f.jpg','3','6499.00','19497','银白色 i7 8G内存
+') [ RunTime:0.0450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-04T09:41:30+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','7','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:41:33+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','7','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:41:33+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','7','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:41:34+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','7','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','2','4998.00','9996','i7 8G内存
+ 银白色') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:42:37+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='3',`cart_status`='1' WHERE `cart_id` = 15 [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:42:37+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2',`cart_status`='1' WHERE `cart_id` = 19 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-04T09:43:42+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:43:43+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:43:46+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:43:46+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:43:47+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:43:47+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:44:11+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:44:11+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:45:11+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'jack' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:47:47+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:47:48+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: address_id E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address_id' cannot be null
+
+[ 2017-05-04T09:51:27+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('7','凡达','湖南省','长沙市','芙蓉区','岳麓山696号','13237892718') [ RunTime:0.0342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:53:16+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 12 [ RunTime:0.0500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T09:53:16+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='3',`cart_status`='1' WHERE `cart_id` = 15 [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:53:56+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('7','凡达','湖南省','长沙市','芙蓉区','岳麓山6976号','13214567846') [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T09:58:57+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='3',`cart_status`='1' WHERE `cart_id` = 15 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T09:58:58+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='2',`cart_status`='1' WHERE `cart_id` = 19 [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T09:59:51+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('7','凡达','湖南省','长沙市','芙蓉区','岳麓山689号','13298716271') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T10:00:13+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('7','Common/Uploads/2017-05-02/small_59087cd5db11f.jpg','104','13','1493863213','19497.00') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T10:00:13+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('7','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','13','1493863213','9996.00') [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T12:01:51+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 12 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-05-04T12:01:55+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('7','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','105','13','1493870515','5599.00') [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T12:01:55+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('7','Common/Uploads/2017-05-02/small_59087cd5db11f.jpg','104','13','1493870515','19497.00') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T12:01:55+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('7','Common/Uploads/2017-05-02/small_590879c33b621.jpg','103','13','1493870515','9996.00') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T12:07:19+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','7','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i5 4G内存 银白色') [ RunTime:0.0540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T12:07:37+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','7','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i5 4G内存 银白色') [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T12:08:00+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 7  [ RunTime:0.0000s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 21 [ RunTime:0.0312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T13:02:03+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T13:02:09+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T14:06:10+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('103','5','联想小新700','Common/Uploads/2017-05-02/small_590879c33b621.jpg','1','4998.00','4998','i7 8G内存
+ 银白色') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T14:06:23+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 22 [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T14:12:28+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T14:12:37+08:00 ] 127.0.0.1 /index.php/Home/User/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_user` (`user_name`,`user_pwd`,`user_tel`,`user_email`,`add_time`) VALUES ('王小明','e10adc3949ba59abbe56e057f20f883e','13212817219','15889305597@163.com','1493878357') [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T14:12:55+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '王小明' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = '王小明' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T14:14:35+08:00 ] 127.0.0.1 /index.php/Home/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('10','王小明','江西省','南昌市','新建县','红谷滩丰和南大道696号','15889305597') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T14:15:54+08:00 ] 127.0.0.1 /index.php/Address/add_address
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_address` [ RunTime:0.0025s ]
+SQL: INSERT INTO `cz_address` (`user_id`,`name`,`province`,`city`,`district`,`address_desc`,`tel`) VALUES ('10','张良','江西省','九江市','彭泽县','红谷滩丰和南大道696号 ','15889305597') [ RunTime:0.0312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T14:20:47+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attr_name E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 73 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\onlineshop\App\Home\Controller\CartController.class.php 第 73 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_attr' cannot be null
+
+[ 2017-05-04T14:21:26+08:00 ] 127.0.0.1 /index.php/Cart/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cz_cart` (`goods_id`,`user_id`,`goods_name`,`goods_img`,`goods_number`,`goods_price`,`price_total`,`goods_attr`) VALUES ('105','10','联想Lenovo小新潮7000','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','1','5599.00','5599','i7 8G内存
+ 银白色') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T14:21:41+08:00 ] 127.0.0.1 /index.php/Cart/affirmorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: UPDATE `cz_cart` SET `goods_number`='1',`cart_status`='1' WHERE `cart_id` = 23 [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-04T14:21:45+08:00 ] 127.0.0.1 /index.php/Cart/ordersuccess
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 10 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `user_id`,`goods_img`,`goods_id`,`price_total` FROM `cz_cart` WHERE `cart_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `cz_order` (`user_id`,`goods_img`,`goods_id`,`address_id`,`order_time`,`goods_amount`) VALUES ('10','Common/Uploads/2017-05-02/small_59087d9b27cdf.jpg','105','15','1493878905','5599.00') [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T21:21:48+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T21:45:24+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T21:53:18+08:00 ] 127.0.0.1 /index.php/User/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\HomeController.class.php 第 31 行.
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = null AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_name` = 'json' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T22:39:45+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:43:35+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:43:58+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T22:48:33+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:49:45+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:53:02+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:54:14+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:54:19+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:54:28+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:54:40+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T22:55:18+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T22:55:44+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T22:55:54+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: user_id E:\wamp64\www\onlineshop\App\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T22:56:57+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:01:46+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cz_user` SET `user_name`='json',`user_pwd`='123456',`user_sex`='0',`user_email`='15889305597@163.com',`user_tel`='15889305597',`add_time`='1493910106' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-05-04T23:05:10+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:05:12+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:05:12+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:05:41+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T23:05:57+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.6640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-04T23:06:03+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T23:06:31+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0020s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:07:19+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0000s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:07:50+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-04T23:08:55+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cz_user` SET `user_name`='json',`user_pwd`='123456',`user_sex`='0',`user_email`='15889305597@163.com',`user_tel`='15889305597',`add_time`='1493910535' WHERE `user_id` = 5 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T23:12:09+08:00 ] 127.0.0.1 /index.php/Home/User/upduserinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_category` WHERE `cat_level` = 2  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `cz_cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_cart` WHERE `user_id` = 5 AND `cart_status` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_user` [ RunTime:0.0010s ]
+SQL: SELECT `user_pwd` FROM `cz_user` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cz_user` SET `user_name`='json',`user_pwd`='123456',`user_sex`='1',`user_email`='15889305597@163.com',`user_tel`='15889305597',`add_time`='1493910729' WHERE `user_id` = 5 [ RunTime:0.0470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

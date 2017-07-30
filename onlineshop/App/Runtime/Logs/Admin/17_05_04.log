@@ -1,0 +1,141 @@
+[ 2017-05-04T10:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T10:24:06+08:00 ] 127.0.0.1 /index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2017-05-04T10:26:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T10:53:03+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.name' in 'field list'
+
+[ 2017-05-04T10:53:26+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.address_id' in 'on clause'
+
+[ 2017-05-04T10:53:27+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.address_id' in 'on clause'
+
+[ 2017-05-04T10:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.address_id' in 'on clause'
+
+[ 2017-05-04T10:53:29+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.address_id' in 'on clause'
+
+[ 2017-05-04T11:20:19+08:00 ] 127.0.0.1 /index.php/Admin/Order/del/order_id/3
+ERR: 非法操作:del
+
+[ 2017-05-04T11:29:32+08:00 ] 127.0.0.1 /index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2017-05-04T11:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-04T12:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T12:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T12:27:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: 无法加载控制器:Manager
+
+[ 2017-05-04T12:27:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-04T12:39:52+08:00 ] 127.0.0.1 /index.php/Admin/User/append.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'add_time' doesn't have a default value
+
+[ 2017-05-04T14:30:56+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-04T14:31:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

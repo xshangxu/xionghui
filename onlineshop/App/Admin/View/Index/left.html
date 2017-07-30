@@ -1,0 +1,61 @@
+<script language=javascript>
+    function expand(el)
+    {
+        childobj = document.getElementById("child" + el);
+
+        if (childobj.style.display == 'none')
+        {
+            childobj.style.display = 'block';
+        }
+        else
+        {
+            childobj.style.display = 'none';
+        }
+        return;
+    }
+</script>
+<div class="left">
+<table height="100%" cellspacing=0 cellpadding=0 width=170 background={$Think.config.ADMIN_IMG_URL}/menu_bg.jpg border=0>
+    <tr>
+        <td valign=top align=middle>
+            <table cellspacing=0 cellpadding=0 width="100%" border=0>
+                <tr>
+                    <td height=10></td>
+                </tr>
+            </table>
+            <foreach name="auth_infoA" item="A">
+            <table cellspacing=0 cellpadding=0 width=150 border=0>
+                <tr height=22>
+                    <td style="padding-left: 30px" background={$Think.config.ADMIN_IMG_URL}/menu_bt.jpg>
+                        <a class=menuparent onclick=expand({$A.auth_id}) href="javascript:void(0);">{$A.auth_name}</a>
+                    </td>
+                </tr>
+                <tr height=4>
+                    <td></td>
+                </tr>
+            </table>
+            <table id=child{$A.auth_id} style="display: none" cellspacing=0 cellpadding=0 width=150 border=0>
+                <foreach name="auth_infoB" item="B">
+                    <if condition="$B['auth_pid'] eq $A['auth_id']">
+                        <tr height=20>
+                            <td align=middle width=30>
+                                <img height=9 src="{$Think.config.ADMIN_IMG_URL}/menu_icon.gif" width=9>
+                            </td>
+                            <td>
+                                <a class=menuchild href="__MODULE__/{$B.auth_c}/{$B.auth_a}">{$B.auth_name}</a>
+                            </td>
+                        </tr>
+                    </if>
+                </foreach>
+                <tr height=4>
+                    <td colspan=2></td>
+                </tr>
+            </table>
+            </foreach>
+
+        </td>
+        <td width=1 bgcolor=#d1e6f7></td>
+    </tr>
+</table>
+</div>
+

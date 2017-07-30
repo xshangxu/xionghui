@@ -1,0 +1,122 @@
+[ 2017-06-08T07:39:36+08:00 ] 127.0.0.1 /index.php/Admin/Manage/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_manager` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cz_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-08T07:39:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T07:42:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T07:43:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_auth` WHERE ( auth_level=1 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T07:44:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T07:46:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-08T07:47:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T07:47:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_attribute` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_attribute` WHERE `type_id` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-08T07:51:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrValUpd?type_id=2&goods_id=104
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mg_name E:\wamp64\www\onlineshop\App\Admin\Controller\BaseController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cz_goods` WHERE `goods_id` = 104 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cz_goods_attr` [ RunTime:0.0480s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_type,a.attr_opt FROM cz_goods_attr g INNER JOIN cz_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '104'  [ RunTime:0.0330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

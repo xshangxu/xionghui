@@ -1,0 +1,41 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <title>会员列表</title>
+</block>
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：用户管理-><a href="__CONTROLLER__/showlist">用户列表</a>
+        <a href="__CONTROLLER__/append">【添加用户】</a>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist" style="margin-top: 10px">
+        <tr>
+            <th>用户编号</th>
+            <th>用户名</th>
+            <th>邮箱</th>
+            <th>手机号</th>
+            <th>注册时间</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr>
+                <td align="center">{$v.user_id}</td>
+                <td align="center">{$v.user_name}</td>
+                <td align="center">{$v.user_email}</td>
+                <td align="center">{$v.user_tel}</td>
+                <td align="center">{$v.add_time|date="Y-m-d H:i",###}</td>
+                <td align="center"><a href="__CONTROLLER__/upd/user_id/{$v.user_id}">修改</a></td>
+                <td align="center"><a href="javascript:;" onclick="if (confirm('确定要删除吗？')){
+                    window.location.href = '__CONTROLLER__/del/user_id/{$v.user_id}'
+                }">删除</a></td>
+            </tr>
+        </foreach>
+        <tr>
+            <td align="center" colspan="9" class="page">{$pagelist}</td>
+        </tr>
+
+    </table>
+
+</block>

@@ -1,0 +1,18 @@
+[ 2017-04-24T15:48:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/list
+ERR: 非法操作:list
+
+[ 2017-04-24T15:48:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodslit
+ERR: 非法操作:goodslit
+
+[ 2017-04-24T15:48:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodslist
+ERR: 非法操作:goodslist
+
+[ 2017-04-24T23:16:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/append
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_id' cannot be null
+
+[ 2017-04-24T23:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/append
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_id' cannot be null
+
+[ 2017-04-24T23:20:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/append
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_id' cannot be null
+

@@ -1,0 +1,45 @@
+<extend name="Base/base" />
+<block name="head">
+    <link rel="stylesheet" href="{$Think.config.ADMIN_CSS_URL}/index.css">
+</block>
+
+<block name="right">
+    <div class="content">
+        <div class="crumbs" id="div">当前位置：后台首页</div>
+        <div class="address1"></div>
+        <div>
+            <ul class="admin_u">
+                <li id="time">当前时间：</li>
+                <li>当前用户：{$Think.session.mg_name}</li>
+                <li>欢迎进入网站管理中心</li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var obj = document.getElementById('time');
+        console.log(obj.innerHTML);
+        function getNowFormatDate() {
+            var date = new Date();
+            var seperator1 = "-";
+            var seperator2 = ":";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            if (strDate >= 0 && strDate <= 9) {
+                strDate = "0" + strDate;
+            }
+            var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+                    + " " + date.getHours() + seperator2 + date.getMinutes()
+                    + seperator2 + date.getSeconds();
+            return currentdate;
+        }
+        var time = getNowFormatDate();
+        obj.innerHTML = '当前时间：' + time;
+        setInterval(function () {
+            var time = getNowFormatDate();
+            obj.innerHTML = '当前时间：' + time;
+        },1000);
+    </script>
+</block>

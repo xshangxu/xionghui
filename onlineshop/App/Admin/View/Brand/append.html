@@ -1,0 +1,35 @@
+<extend name="Base/base" />
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理->
+        <a href="__CONTROLLER__/append">添加商品品牌</a>
+        <a href="__CONTROLLER__/showlist">【商品品牌列表】</a>
+    </div>
+
+    <div class="tab-div tabbody-div">
+        <form action="__SELF__" method="post">
+            <table width="100%">
+                <tr>
+                    <td align="right" class="label">品牌名称：</td>
+                    <td><input type="text" name="brand_name"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">品牌网络地址：</td>
+                    <td><input type="url" name="brand_url"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">品牌logo：</td>
+                    <td>
+                        <input type="file" name="brand_logo">
+                    </td>
+                </tr>
+            </table>
+            <div class="button-div" style="padding-left: 335px">
+                <input type="submit" class="button" value="确定">
+                <input type="reset" class="button" value="重置">
+            </div>
+        </form>
+    </div>
+
+</block>

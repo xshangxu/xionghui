@@ -1,0 +1,34 @@
+<extend name="Base/base" />
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__CONTROLLER__/showlist">分类列表</a>
+        <a href="__CONTROLLER__/append">【添加分类】</a>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist" style="margin-top: 10px">
+        <tr>
+            <th>序号</th>
+            <th>分类名称</th>
+            <th>分类父ID</th>
+            <th>全路径</th>
+            <th>级别</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr align="center">
+                <td>{$v.cat_id}</td>
+                <td align="left"><?php echo str_repeat('&nbsp;&nbsp;&nbsp;',$v['cat_level']); ?>{$v.cat_name}</td>
+                <td>{$v.cat_pid}</td>
+                <td>{$v.cat_path}</td>
+                <td>{$v.cat_level}</td>
+                <td><a href="__CONTROLLER__/upd/cat_id/{$v.cat_id}">修改</a></td>
+                <td><a href="javascript:;"onclick="if(confirm('确定要删除吗？')){
+                     window.location.href = '__CONTROLLER__/del/cat_id/{$v.cat_id}';}">删除</a>
+                </td>
+            </tr>
+        </foreach>
+        <tr><td colspan="7" align="center" class="page">{$pagelist}</td></tr>
+    </table>
+
+</block>

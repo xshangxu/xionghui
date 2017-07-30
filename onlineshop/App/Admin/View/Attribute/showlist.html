@@ -1,0 +1,112 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <style type="text/css">
+        .search{ margin: 10px 0; border: 1px solid #BBDDE5; padding: 5px; color: #808080;background:#F4FaFb;
+            padding: 5px;}
+    </style>
+</block>
+
+<block name="right">
+    <!-- 面包屑导航 -->
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__MODULE__/Type/showlist">商品类型列表</a>->
+        <a href="__CONTROLLER__/showlist">属性列表</a>
+        <a href="__CONTROLLER__/append">【添加属性】</a>
+    </div>
+
+    <div class="search">
+        <form action="__SELF__" style="height: 22px">
+            <img style="vertical-align: middle" src="{$Think.config.ADMIN_IMG_URL}/icon_search.gif" alt="SEARCH" width="26" height="22">
+            按商品类型显示：
+            <select name="" id="typesel" >
+                <option value="0">所有商品类型</option>
+                <foreach name="typeinfo" item="v">
+                    <equal name="Think.get.type_id" value="$v['type_id']">
+                        <option value="{$v.type_id}" selected>
+                    <else />
+                        <option value="{$v.type_id}">
+                    </equal>
+                        {$v.type_name}</option>
+                </foreach>
+            </select>
+        </form>
+    </div>
+
+    <table width="100%" cellpadding="1" cellspacing="0" class="tablelist">
+        <tr>
+            <th>序号</th>
+            <th>属性名称</th>
+            <th>商品类型</th>
+            <th>属性值录入方式</th>
+            <th>可选值列表</th>
+            <th colspan="2">操作</th>
+        </tr>
+        <foreach name="info" item="v">
+            <tr class="attr">
+                <td align="center">{$v.attr_id}</td>
+                <td align="center">{$v.attr_name}</td>
+                <td align="center">{$v.type_name}</td>
+                <equal name="v.attr_input_type" value="0">
+                    <td align="center">手工录入</td>
+                <else/>
+                    <td align="center">从列表中选择</td>
+                </equal>
+                <td align="center">{$v.attr_opt}</td>
+                <td align="center"><a href="__CONTROLLER__/upd/attr_id/{$v.attr_id}">修改</a></td>
+                <td align="center"><a href="javascript:;" onclick="if (confirm('确定要删除该属性吗？')){
+                    window.location.href = '__CONTROLLER__/del/attr_id/{$v.attr_id}';}">删除</a></td>
+            </tr>
+        </foreach>
+        <tr><td colspan="7" align="center"  class="page">{$pagelist}</td></tr>
+    </table>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".attr td").eq(2).text();
+            $('#typesel').change(function () {
+                var type_id = $('#typesel option:selected').val();
+                $.ajax({
+                    url : '__CONTROLLER__/getAttr',
+                    data : {'type_id': type_id },
+                    dataType : 'json',
+                    type : 'get',
+                    success : function (msg) {
+                        var optArr = $('#typesel option');
+                        var str = '';
+                        $('.tablelist tr:not(:first)').remove();
+                        $.each(msg.pageinfo,function (index,item) {
+                            str = "<tr>";
+                            str += "<td align='center'>"+item.attr_id + "</td>";
+                            str += "<td align='center'>"+item.attr_name + "</td>";
+                            optArr.each(function (i,v) {
+                                if ($(v).val() == item.type_id){
+                                    var type_name = $(v).text();
+                                    str += "<td align='center'>"+type_name + "</td>";
+                                }
+                            });
+                            if (item.attr_input_type == 0){
+                                str += '<td align="center">手工录入</td>';
+                            }else if (item.attr_input_type == 1){
+                                str += '<td align="center">从列表中选择</td>';
+                            }
+                            str += "<td align='center'>"+item.attr_opt + "</td>";
+                            str += "<td align='center'><a href='__CONTROLLER__/upd/attr_id/"+ item.attr_id +"'>修改</a></td>";
+                            str += '<td align="center"><a href="javascript:;" onclick="if (confirm(';
+                            str += "'确定要删除该属性吗？')){ window.location.href = '__CONTROLLER__/del/attr_id/"+ item.attr_id +"';}";
+                            str += '">删除</a></td>';
+                            str += "</tr>";
+                            $('.tablelist').append(str);
+                        });
+                        var pagestr = '<tr><td colspan="7" align="center"  class="page">'+ msg.pagelist + '</td></tr>';
+                        $('.tablelist').append(pagestr);
+                    }
+                });
+            });
+        });
+    </script>
+
+</block>
+
+
+

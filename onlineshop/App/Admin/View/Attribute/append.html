@@ -1,0 +1,69 @@
+<extend name="Base/base" />
+
+<block name="head">
+    <style type="text/css">
+        .attrfont{ font-size: 14px; }
+        .descfont{ font-size: 14px; color: #aaa; }
+    </style>
+</block>
+
+<block name="right">
+    <div class="crumbs">
+        当前位置：商品管理-><a href="__MODULE__/Type/showlist">商品类型列表</a>->
+        <a href="__CONTROLLER__/append">添加属性</a>
+        <a href="__CONTROLLER__/showlist">【属性列表】</a>
+    </div>
+
+    <div class="tab-div tabbody-div">
+        <form action="__SELF__" method="post">
+            <table width="100%">
+                <tr>
+                    <td align="right" class="label">属性名称：</td>
+                    <td><input type="text" name="attr_name"></td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">所属商品类型：</td>
+                    <td>
+                        <select name="type_id" id="">
+                            <option value="0">商品类型</option>
+                            <foreach name="typeinfo" item="v">
+                                <option value="{$v.type_id}">{$v.type_name}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">属性是否可选：</td>
+                    <td class="attrfont">
+                        <input type="radio" name="attr_type" value="0" checked> 唯一属性
+                        <input type="radio" name="attr_type" value="1"> 单选属性
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="descfont">"单选属性"表示该属性的值唯一；“单选属性”表示该属性的值有多个，购买商品时只能选择其中一个值</td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">该值得录入方式：</td>
+                    <td class="attrfont">
+                        <input type="radio" name="attr_input_type" value="0" checked>手工录入
+                        <input type="radio" name="attr_input_type" value="1">重下面列表中选择（一行代表一个可选值）
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="label">可选值列表：</td>
+                    <td><textarea name="attr_opt"  cols="30" rows="5"></textarea></td>
+                </tr>
+            </table>
+            <div class="button-div" style="padding-left: 335px">
+                <input type="submit" class="button" value="确定">
+                <input type="reset" class="button" value="重置">
+            </div>
+        </form>
+    </div>
+
+
+</block>
+
+
+
